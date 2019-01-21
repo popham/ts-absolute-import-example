@@ -1,0 +1,16 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "capnp compile -ots -I ./include ./src/nonlib-file.capnp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "capnp-ts": "^0.4.0",
+    "capnpc-ts": "^0.4.0"
+  }
+}
